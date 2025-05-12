@@ -1,3 +1,11 @@
 script_key = ""
+-- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUdKFy
+
+--[[
+    READ THIS!!!
+
+    The script is currently has a numerous amount of issues. 
+    If the gui breaks and functions dont work (especially after dying) turn off everything and execute again
+ ]]--
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e4d05d136fd2bec8ebaf93892d6c9660.lua"))()
