@@ -1,0 +1,12 @@
+script_key = "" -- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUdKFy
+
+--[[
+	|
+     READ THIS!!!
+
+     The script is currently has a numerous amount of issues. 
+     If the gui breaks and functions dont work (especially after dying) 
+	   turn off everything and execute again.
+  |
+]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thezbam/zbam-v1/refs/heads/main/loader"))()
