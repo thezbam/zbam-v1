@@ -9,4 +9,11 @@ script_key = "" -- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUd
 	   turn off everything and execute again.
   |
 ]]--
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "Loading...",
+        Text = "ss_zbam v1 is currently loading, please wait.",
+        Duration = duration or 5
+})
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thezbam/zbam-v1/refs/heads/main/loader"))()
