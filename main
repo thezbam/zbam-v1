@@ -1,22 +1,17 @@
 script_key = "" -- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUdKFy
 
 --[[
-	Updated: 14th May 2025
-
-	Make sure to execute while youre in the match and not while in main menu and customisation.
-	Oh yeah, if your kill aura doesnt kill the target and you glitch (stuck trying to kill target but not working) click menu and then play.
-
-	Updating Later:
-
-	Fast Swing
-	AP
+	Updated: 20th May 2025
 	
+	* GUI now loads in after youve joined the match, so execute once and that should be it.
+	* Fixed dying bug where it would cause script to not work after dying once.
+	* Removed some functions that were pretty much dead ends, hopefully can implement them fr next update.
+	* Kill Aura is less buggy but still has a few issues (sometimes target doesnt want to get hit).
+	
+	Adding a "sissy mode" and different kill options for kill aura.
+
 ]]--
 
-game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "Loading...",
-        Text = "ss_zbam v1 is currently loading, please wait.",
-        Duration = duration or 5
-})
+
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thezbam/zbam-v1/refs/heads/main/loader"))()
