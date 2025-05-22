@@ -1,9 +1,10 @@
-script_key = "put key here" -- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUdKFy
+script_key = "IEpEqLCEzdHCzfrWhFXmYmOupLOGnRwC" -- get key: https://ads.luarmor.net/get_key?for=check1-zuXLxGYUdKFy
 
 --[[
-	Updated: 20th May 2025
-	
-	* GUI now loads in after youve joined the match, so execute once and that should be it.
+	Updated: 21th May 2025
+
+	* Check F9 for luarmour status
+	* If GUI doesnt execute after youve clicked play ingame then click once more.
 	* Fixed dying bug where it would cause script to not work after dying once.
 	* Removed some functions that were pretty much dead ends, hopefully can implement them fr next update.
 	* Kill Aura is less buggy but still has a few issues (sometimes target doesnt want to get hit).
@@ -12,6 +13,6 @@ script_key = "put key here" -- get key: https://ads.luarmor.net/get_key?for=chec
 
 ]]--
 
-
+--check f9 for luamour status
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/thezbam/zbam-v1/refs/heads/main/loader"))()
