@@ -1,16 +1,12 @@
-script_key = "" -- get key: https://ads.luarmor.net/get_key?for=keysystem-CCFPbWVqLPxN
+--key: (https://ads.luarmor.net/get_key?for=keysystem-CCFPbWVqLPxN)
+script_key = "" --put key in here
 
 --[[
-	Updated: 21th May 2025
-
-	* Check F9 for luarmour status
-	* If GUI doesnt execute after youve clicked play ingame then click again until luarmor authenticates you.
-	* Fixed dying bug where it would cause script to not work after dying once.
-	* Removed some functions that were pretty much dead ends, hopefully can implement them fr next update.
-	* Kill Aura is less buggy but still has a few issues (sometimes target doesnt want to get hit).
+	Updated: 26th May 2025
 	
-	Adding a "sissy mode" and different kill options for kill aura.
+	* Added Longify Katana; visual isnt fe but the hitpoints are.
+	* Updated GUI activation while in main menu on intial execution. (click a couple times until a notification pops up)
 
 ]]--
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e4d05d136fd2bec8ebaf93892d6c9660.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thezbam/zbam-v1/refs/heads/main/loader"))()
