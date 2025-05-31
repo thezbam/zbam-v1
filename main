@@ -1,11 +1,15 @@
---key: (https://ads.luarmor.net/get_key?for=keysystem-CCFPbWVqLPxN)
+--key: https://ads.luarmor.net/get_key?for=keysystem-CCFPbWVqLPxN
 script_key = "" --put key in here
 
 --[[
-	Updated: 26th May 2025
+	Updated: 1st June 2025
 	
-	* Added Longify Katana; visual isnt fe but the hitpoints are.
-	* Updated GUI activation while in main menu on intial execution. (click a couple times until a notification pops up)
+	* Minor bug fixes
+	* Added "Longify Rapier" feature (the same as longify katana)
+	* Added "Kill Player" feature (located in player tab)
+	* New config setting added for kill player feature.
+	* Added config button to print help
+	* Removed "News" tab
 
 ]]--
 
